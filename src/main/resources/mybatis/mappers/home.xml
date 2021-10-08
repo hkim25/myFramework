@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="home">
+	<resultMap id="testVO" type="testVO">
+		<result property="column1" column="COLUMN1"  />
+		<result property="column2" column="COLUMN2"  />
+		<result property="column3" column="COLUMN3"  />
+		<result property="column4" column="COLUMN4"  />
+	</resultMap>
+	
+	
+	
+</mapper>
+
